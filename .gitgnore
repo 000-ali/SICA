@@ -1,0 +1,17 @@
+# Arquivos compilados do Java
+*.class
+
+# Pastas geradas durante a compilação
+bin/
+out/
+
+# Arquivos enviados ao servidor
+arquivos_servidor/*
+!arquivos_servidor/.gitkeep
+
+# Arquivos baixados pelo cliente
+downloads/*
+!downloads/.gitkeep
+
+# Configurações locais do VS Code
+.vscode/
